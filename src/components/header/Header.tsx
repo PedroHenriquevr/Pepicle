@@ -6,11 +6,11 @@ import style from './Header.module.scss'
 export default function Header() {
     return(
         <main className={style.header}>
-            <h1>Pepicle</h1>
+            <h1 className={style.title}>Pepicle</h1>
             <Input/>
-            <button>My Channel</button>
             <div className={style.perfil}>
-            <PiScreencastLight/>
+            <button className={style.button}>My Channel</button>
+            <PiScreencastLight color="white" style={{paddingRight: 10}} size={26}/>
             <img src={avatar} alt="" className={style.avatar} />
             </div>
         </main>
