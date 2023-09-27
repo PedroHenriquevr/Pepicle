@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "label": "Massas",
+        "icon": "PiWaveform"
+    },
+    {
+        "id": 2,
+        "label": "Carnes",
+        "icon": "PiPlaylistBold"
+    },
+    {
+        "id": 3,
+        "label": "Combos",
+        "icon": "IoIosStats"
+
+    }
+]
