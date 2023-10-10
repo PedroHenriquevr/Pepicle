@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "label": "Massas",
+        "label": "Feed",
         "icon": "PiWaveform"
     },
     {
         "id": 2,
-        "label": "Carnes",
+        "label": "Playlists",
         "icon": "PiPlaylistBold"
     },
     {
         "id": 3,
-        "label": "Combos",
+        "label": "Statistics",
         "icon": "IoIosStats"
 
     }

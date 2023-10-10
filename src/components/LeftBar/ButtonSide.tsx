@@ -1,7 +1,5 @@
 import { ReactNode } from 'react'
 import { IconType } from 'react-icons'
-import {PiPlaylistBold, PiWaveform} from 'react-icons/pi'
-import {IoIosStats} from 'react-icons/io'
 
 
 export type ButtonProps = {
@@ -14,7 +12,7 @@ export default function ButtonSide({children, Icon}: ButtonProps) {
     <>
     <div className='bg-none flex  items-center gap-2 w-[100px]'>
         <Icon color='white' size={20}/>
-        <button className='text-white text-xl'>{children}</button>
+        <button className='text-white text-xl px-4 py-2 custom-button hover:text-orange-600 '>{children}</button>
     </div>
     
     </>

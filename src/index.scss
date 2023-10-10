@@ -53,4 +53,11 @@ body {
 *{
 	font-family: 'Roboto Slab', serif;
 }
+.custom-button {
+	transition: all 0.3s ease;
+  }
 
+  .custom-button:hover {
+	margin-left: 20px; /* ou qualquer outra quantidade que você preferir */
+	border-left: 4px solid #ea580c; /* laranja */
+  }

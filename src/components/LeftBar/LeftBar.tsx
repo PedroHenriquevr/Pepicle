@@ -6,7 +6,7 @@ type IOpcao = typeof filtros[0]
 
 export default function SideBar() {
     return (
-        <div>
+        <div className="h-[100vh] w-fit">
             {filtros.map((opcao: IOpcao) => {
                 const Icon = opcao.icon as unknown as IconType;
                 console.log("Icon:", Icon); // Adicione este log para depurar
